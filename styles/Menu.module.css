@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 6rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+
+.heading > :nth-child(1) {
+  color: var(--themeRed);
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.heading > :nth-child(2),
+.heading > :nth-child(3) {
+  font-size: 2rem;
+}
+
+.ImageWrapper {
+  height: 16rem;
+  width: 22em;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.ImageWrapper > span > img:hover {
+  transform: scale(1.1);
+}
+
+.pizza {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-weight: bold;
+  gap: 0.5rem;
+}
+
+.pizza :hover {
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
